@@ -10,7 +10,8 @@ class Publicacion:
                  url_imagen="",
                  fecha=time.strftime("%d/%m/%y"),
                 ubicacion="",
-                 precio=0):
+                 precio=0,
+                 dormitorios=0):
 
         self.id = id
         self.nombre = nombre
@@ -21,6 +22,7 @@ class Publicacion:
         self.precio = precio
         self.ubicacion = ubicacion
         self.sitio = sitio
+        self.dormitorios = dormitorios
 
     def __str__(self):
         return self.nombre
