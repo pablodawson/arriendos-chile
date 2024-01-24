@@ -22,7 +22,7 @@ class Publicacion:
         self.fecha = fecha
         self.precio = precio
         self.ubicacion = ubicacion
-        self.coordenadas = []
+        self.coordenadas = coordenadas
         self.sitio = sitio
         self.dormitorios = dormitorios
 

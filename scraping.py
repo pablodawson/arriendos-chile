@@ -11,6 +11,8 @@ def get_publicaciones_individual(sitio, config):
         fuente = Yapo(url)
     elif sitio == "zoominmobiliario":
         fuente = Zoominmobiliario(url)
+    elif sitio == "toctoc":
+        fuente = TocToc(url)
     
     publicaciones = fuente.get_publicaciones()
     
@@ -26,4 +28,7 @@ def get_publicaciones(config):
 
 if __name__ == "__main__":
     config = json.load(open("config.json"))
-    publicaciones = get_publicaciones(config)
+    #publicaciones = get_publicaciones(config)
+
+    sitio  = "toctoc"
+    publicaciones = get_publicaciones_individual(sitio, config)
