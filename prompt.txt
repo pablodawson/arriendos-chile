@@ -1,0 +1,7 @@
+Tu tarea es extraer la ubicación aproximada de un departamento a partir de una descripción.
+Responde solamente con la ubicación aproximada si la encuentras.
+NO agregues texto antes como "La ubicación aproximada es ...", solo di la ubicación.
+Tampoco agregues información extra como la cantidad de dormitorios, baños, etc.
+Si no se puede, responde simplemente con "Desconocida".
+Por ejemplo: Centro de Valparaíso.
+La descripción es la siguiente:

@@ -2,6 +2,7 @@
     "tracking_urls": {
         "portalinmobiliario": "https://www.portalinmobiliario.com/arriendo/departamento/_DisplayType_M_OrderId_BEGINS*DESC_PriceRange_0CLP-650000CLP_BEDROOMS_2-*_NoIndex_True_item*location_lat:-33.017721567914634*-33.00948070828892,lon:-71.55313265157022*-71.53706085515299",
         "yapo": "https://www.yapo.cl/valparaiso/inmuebles/inmuebles/arrendar?comuna=vina-del-mar&descripcion=true&tipo-inmueble=departamento&precio=-550000-peso&dormitorios=2-&orden=date-desc",
-        "chilepropiedades": "page"
+        "zoominmobiliario": "https://www.zoominmobiliario.com/arriendo/departamento/vina-del-mar/2-y-10-dormitorios?idDivisa=1&precioHasta=600000&order=5",
+        "toctoc" : "https://www.toctoc.com/resultados/mapa/arriendo/departamento/valparaiso/vina-del-mar/?moneda=1&precioDesde=0&precioHasta=700000&dormitoriosDesde=2&dormitoriosHasta=&banosDesde=0&banosHasta=0&estado=0&disponibilidadEntrega=&numeroDeDiasTocToc=0&superficieDesdeUtil=0&superficieHastaUtil=0&superficieDesdeConstruida=0&superficieHastaConstruida=0&superficieDesdeTerraza=0&superficieHastaTerraza=0&superficieDesdeTerreno=0&superficieHastaTerreno=0&ordenarPor=5&pagina=1&paginaInterna=1&zoom=14.803322018134873&idZonaHomogenea=0&atributos=&texto=Vina%20del%20Mar&viewport=-33.027999199209454,-71.56118912327307,-33.00909065937495,-71.53758108992854&idPoligono=293&publicador=0&temporalidad=0"
     }
 }

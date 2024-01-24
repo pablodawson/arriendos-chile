@@ -66,6 +66,8 @@ class Yapo:
                 if (self.inferir_ubicacion):
                     pub.ubicacion = extraer_info_descripcion(pub.descripcion)
                 
+                print(pub)
+
                 publicaciones.append(pub)
             except:
                 continue

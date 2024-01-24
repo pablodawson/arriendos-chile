@@ -30,6 +30,9 @@ class Portalinmobiliario:
             pub.ubicacion = card.find_all('div', class_="ui-search-result__content-location")[0].contents[0]
             pub.nombre = card.find_all('h2')[0].contents[0]
             pub.precio = int(card.find_all('span', class_="andes-money-amount__fraction")[0].contents[0].replace(".",""))
+            
+            print(pub)
+
             publicaciones.append(pub)
 
         return publicaciones

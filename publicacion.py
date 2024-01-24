@@ -11,7 +11,8 @@ class Publicacion:
                  fecha=time.strftime("%d/%m/%y"),
                 ubicacion="",
                  precio=0,
-                 dormitorios=0):
+                 dormitorios=0,
+                 coordenadas=[]):
 
         self.id = id
         self.nombre = nombre
@@ -21,6 +22,7 @@ class Publicacion:
         self.fecha = fecha
         self.precio = precio
         self.ubicacion = ubicacion
+        self.coordenadas = []
         self.sitio = sitio
         self.dormitorios = dormitorios
 
